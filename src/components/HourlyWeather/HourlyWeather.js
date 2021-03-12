@@ -3,10 +3,11 @@ import './HourlyWeather.css'
 import { useParams } from "react-router-dom";
 import WeatherTable from '../WeatherTable/WeatherTable';
 import { useLocation } from 'react-router-dom'
-
 const HourlyWeather = (props) => {
     let location = useLocation();
+    
     const hourly = location.aboutProps
+    
     const { day } = useParams()
     return (
         <div className="container">

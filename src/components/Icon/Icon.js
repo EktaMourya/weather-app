@@ -9,77 +9,52 @@ import Thermometer from "../../assets/thermometer.svg";
 
 const Icon = (props) =>{
     switch(props.icon){
-        case 800 :
+        case "01d" :
             return <img className="icon" src={Sun} alt={Sun}/>
             break;
-        case 801 :
+            case "01n" :
+                return <img className="icon" src={Sun} alt={Sun}/>
+                break;
+        case "02d" :
             return <img className="icon" src={Cloudy} alt={Cloudy}/>
             break;
-        case 802 :
+        case "02n" :
             return <img className="icon" src={Cloudy} alt={Cloudy}/>
             break;
-        case 803 :
+        case "03d" :
             return <img className="icon" src={Cloudy} alt={Cloudy}/>
             break;    
-        case 200 :
-            return <img className="icon" src={Rain} alt={Rain}/>
+        case "03n" :
+            return <img className="icon" src={Cloudy} alt={Cloudy}/>
             break;  
-        case 201 :
+            case "04d" :
+                return <img className="icon" src={Cloudy} alt={Cloudy}/>
+                break;  
+                case "04n" :
+                    return <img className="icon" src={Cloudy} alt={Cloudy}/>
+                    break;  
+        case "09d" :
             return <img className="icon" src={Rain} alt={Rain}/>
             break;   
-        case 202 :
+        case "09n" :
             return <img className="icon" src={Rain} alt={Rain}/>
             break;   
-        case 300 :
+        case "10d" :
             return <img className="icon" src={Rain} alt={Rain}/>
             break; 
-        case 301 :
+        case "10n" :
             return <img className="icon" src={Rain} alt={Rain}/>
             break; 
-        case 302 :
+        case "11d" :
             return <img className="icon" src={Rain} alt={Rain}/>
             break; 
-        case 500 :
+        case "11n" :
             return <img className="icon" src={Rain} alt={Rain}/>
             break; 
-        case 501 :
-            return <img className="icon" src={Rain} alt={Rain}/>
-            break; 
-        case 502 :
-            return <img className="icon" src={Rain} alt={Rain}/>
-            break; 
-        case 511 :
-            return <img className="icon" src={Rain} alt={Rain}/>
-            break; 
-        case 520 :
-            return <img className="icon" src={Rain} alt={Rain}/>
-            break; 
-        case 521 :
-            return <img className="icon" src={Rain} alt={Rain}/>
-            break; 
-        case 522 :
-            return <img className="icon" src={Rain} alt={Rain}/>
-            break; 
-
-
-                         
-        case 600 :
+            case "13d" :
             return <img className="icon" src={Snowing} alt={Snowing}/>
             break;
-        case 601 :
-            return <img className="icon" src={Snowing} alt={Snowing}/>
-            break;
-        
-        case 602 :
-            return <img className="icon" src={Snowing} alt={Snowing}/>
-            break;
-        case 621 :
-            return <img className="icon" src={Snowing} alt={Snowing}/>
-            break;
-        case 622 :
-            return <img className="icon" src={Snowing} alt={Snowing}/>
-            break;
-        case 623 :
+        case "13n" :
             return <img className="icon" src={Snowing} alt={Snowing}/>
             break;
         
