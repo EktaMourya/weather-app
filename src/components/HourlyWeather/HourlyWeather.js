@@ -3,7 +3,7 @@ import './HourlyWeather.css'
 import { useParams } from "react-router-dom";
 import WeatherTable from '../WeatherTable/WeatherTable';
 import { useLocation } from 'react-router-dom'
-const HourlyWeather = (props) => {
+const HourlyWeather = () => {
     let location = useLocation();
     
     const hourly = location.aboutProps
@@ -14,11 +14,11 @@ const HourlyWeather = (props) => {
 
             <header className="header">{day}</header>
 
-            <table className="table">
+            <table className="table table-wrapper">
                 <tr>
-                    <th>Time</th>
-                    <th>Min Temp</th>
-                    <th>MaxTime</th>
+                    <th style={{width: "40%"}}>Time</th>
+                    <th style={{width: "30%"}}>Min Temp</th>
+                    <th style={{width: "30%"}}>MaxTime</th>
                 </tr>
             </table>
 

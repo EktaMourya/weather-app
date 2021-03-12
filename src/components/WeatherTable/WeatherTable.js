@@ -26,11 +26,11 @@ const WeatherTable = (props) => {
       const max = parseInt(temp_max - 273.15);
       const description = hourlyData.weather[0].description
       return (
-       <table className="table">
+       <table className="table table-wrapper">
                    <tr>
-                    <td  ><Icon icon={icon} /><br />{hours}<br />{description}</td>
-                <td >{min}&#176;</td>
-                <td >{max}&#176;</td>
+                    <td style={{width: "40%"}} ><Icon icon={icon} /><br />{hours}<br />{description}</td>
+                <td style={{width: "30%"}}>{min}&#176;</td>
+                <td style={{width: "30%"}}>{max}&#176;</td>
               </tr>
 </table>
        
